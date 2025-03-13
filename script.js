@@ -1,3 +1,8 @@
+const names = ['Ali', 'Aisha', 'Omar', 'Fatima', 'Amir'];
+const filteredNames = names.filter(name => name.startsWith('A'));
+
+console.log(filteredNames);
+
 
 
 
